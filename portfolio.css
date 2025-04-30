@@ -1,17 +1,11 @@
 body {
   background-color: #0c3b6f;
   color: #c9c9c9;
-  margin-left: 10%;
-  margin-right: 10%;
   font-size: 1.5rem;
   overflow-x: hidden;
   text-align: start;
   justify-content: center;
   align-items: center;
-}
-
-header {
-  margin-bottom: 3rem;
 }
 
 h1 {
@@ -141,8 +135,119 @@ img {
   font-size: 1.5rem;
   width: 4rem;
   height: 1.7rem;
-  background-color: #61DBFB;
+  background-color: #61dbfb;
   color: #ffffff;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 15px;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: #0c3b6f;
+    color: #c9c9c9;
+    font-size: 0.7rem;
+    overflow-x: hidden;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .sections {
+    width: 100%;
+    display: flex;
+  }
+
+  .about {
+    width: 90%;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    margin-bottom: 0.5rem;
+  }
+
+  .html {
+    border-radius: 0.7rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    font-size: 1rem;
+    width: 4rem;
+    height: 1.2rem;
+    background-color: #e34c26;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 15px;
+  }
+
+  .css {
+    border-radius: 0.7rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    font-size: 0.9rem;
+    width: 2.5rem;
+    height: 1.2rem;
+    background-color: #264de4;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 15px;
+  }
+
+  .js {
+    border-radius: 0.7rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    font-size: 1rem;
+    width: 4.5rem;
+    height: 1.2rem;
+    background-color: #f0db4f;
+    color: #000000;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 15px;
+  }
+
+  .github {
+    border-radius: 0.7rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    font-size: 1rem;
+    width: 2.5rem;
+    height: 1.2rem;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 15px;
+  }
+
+  .react {
+    border-radius: 0.7rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    width: 3rem;
+    height: 1.2rem;
+    background-color: #61dbfb;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 15px;
+  }
 }
